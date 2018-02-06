@@ -1,6 +1,4 @@
-- [x] initialised react
-- [x] initialised folder structure plus Sass automated implementation
-- [x] imported CSS Grid structure and the rest of the HTML
-- [ ] Change everything into components
-- [ ] Create Routing
-- [ ] Create portfolio page
+# Portfolio
+
+`yarn start`
+
