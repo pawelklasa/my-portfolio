@@ -14,6 +14,7 @@ import { Header } from './components/header';
 import { Nav } from './components/nav';
 import { Home } from './components/pages/home';
 import { Work } from './components/pages/work';
+import { Contact } from './components/pages/contact';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
                     <Nav />
                     <Route exact path='/' component={Home} />
                     <Route exact path='/work' component={Work} />
+                    <Route exact path='/contact' component={Contact} />
                     <Footer />
                 </div>
             </div>
