@@ -5,6 +5,7 @@ export class Header extends React.Component {
         return (
             <div class="header">
                 <div class="logo">pav<span class="highlight">_</span>ka</div>
+                <div class="nav">Work | Medium | Contact</div>
             </div>
 
         )

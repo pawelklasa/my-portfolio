@@ -34,12 +34,20 @@ body {
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
-  color: #fff; }
+  color: #fff;
+  display: inline; }
 
 .search-logo {
   font-family: 'Poiret One', cursive;
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
+
+.nav {
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  float: right; }
 
 .footer {
   font-family: 'Poiret One', cursive;
