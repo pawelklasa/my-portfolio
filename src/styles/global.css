@@ -14,11 +14,14 @@ html, body {
   margin-left: 20px;
   margin-right: 20px;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 60px auto 30px;
-  grid-template-areas: "h" "c" "f"; }
+  grid-template-rows: 60px 60px auto 30px;
+  grid-template-areas: "h" "s" "c" "f"; }
 
 .header {
   grid-area: h; }
+
+.nav {
+  grid-area: s; }
 
 .content {
   grid-area: c; }
@@ -44,7 +47,7 @@ h2 {
     grid-template-rows: 60px auto 30px;
     margin-left: 20px;
     margin-right: 20px;
-    grid-template-areas: "h h" "c c" "f f"; }
+    grid-template-areas: "h s" "c c" "f f"; }
   h2 {
     font-size: 25px; } }
 
@@ -54,6 +57,6 @@ h2 {
     margin: 0 auto;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 60px auto 30px;
-    grid-template-areas: "h h h h h h h h h h h h" "c c c c c c c c c c c c" "f f f f f f f f f f f f"; }
+    grid-template-areas: "h h h h h h h h h h s s" "c c c c c c c c c c c c" "f f f f f f f f f f f f"; }
   h2 {
     font-size: 35px; } }

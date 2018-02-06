@@ -12,6 +12,7 @@ class App extends Component {
       <div className="App">
         <div class="container">
             <Header />
+            <div class="nav">Work | Medium | Contact</div>
             <Content />
             <Footer />
         </div>
