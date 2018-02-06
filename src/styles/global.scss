@@ -17,10 +17,9 @@ html, body {
   margin-left: 20px;
   margin-right: 20px;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 60px 60px auto 30px;
+  grid-template-rows: 60px auto 30px;
   grid-template-areas: 
       "h"
-      "s"
       "c"
       "f";
 }
@@ -29,9 +28,9 @@ html, body {
   grid-area: h;
 }
 
-.search {
-  grid-area: s;
-}
+// .search {
+//   grid-area: s;
+// }
 
 .content {
   grid-area: c;
@@ -62,7 +61,7 @@ h2 {
       margin-left: 20px;
       margin-right: 20px;
       grid-template-areas: 
-          "h s"
+          "h h"
           "c c"
           "f f";
   }
@@ -79,7 +78,7 @@ h2 {
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: 60px auto 30px;
       grid-template-areas: 
-          "h h h h h h h h h h s s"
+          "h h h h h h h h h h h h"
           "c c c c c c c c c c c c"
           "f f f f f f f f f f f f";
   }
