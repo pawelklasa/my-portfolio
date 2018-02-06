@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 
 import './styles/global.css';
 
 import { Footer } from './components/footer.js';
 import { Header } from './components/header.js';
-import { Content } from './components/content.js';
+import { Home } from './components/home.js';
 import { Nav } from './components/nav.js';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
         <div class="container">
             <Header />
             <Nav />
-            <Content />
+            <Home />
             <Footer />
         </div>
       </div>
