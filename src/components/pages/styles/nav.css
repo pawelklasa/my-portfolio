@@ -2,8 +2,17 @@
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   max-width: 810px;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 a {
   color: #fff;
   text-decoration: none; }
+
+@media screen and (min-width: 600px) {
+  .nav {
+    text-align: right; } }
+
+@media screen and (min-width: 1225px) {
+  .nav {
+    text-align: right; } }

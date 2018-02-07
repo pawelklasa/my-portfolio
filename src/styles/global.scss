@@ -14,8 +14,6 @@ html, body {
   height: 100%;
   display: grid;
   grid-gap: 3px;
-  margin-left: 20px;
-  margin-right: 20px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 60px 60px auto 30px;
   grid-template-areas: 
