@@ -1,5 +1,7 @@
 body {
-  margin-top: 60px;
+  margin-top: 2%;
+  margin-left: 0px;
+  margin-right: 0px;
   background: linear-gradient(270deg, #4568dc, #b06ab3);
   background-size: 400% 400%;
   -webkit-animation: AnimationName 30s ease infinite;
@@ -52,8 +54,12 @@ body {
 
 @media screen and (min-width: 600px) {
   .search-logo {
-    float: right; } }
+    float: right; }
+  .logo {
+    margin-left: 0px; } }
 
 @media screen and (min-width: 1225px) {
   .search-logo {
-    float: right; } }
+    float: right; }
+  .logo {
+    margin-left: 0px; } }

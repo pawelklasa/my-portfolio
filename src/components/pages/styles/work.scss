@@ -14,12 +14,31 @@
   }
 
   .talktalk, .sky, .jlr, .btp {
-      background-color: #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   img {
+    border-radius: 5px;
     max-width: 100%;
     max-height: auto;
+  }
+
+  h3 {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
   }
 
   @media screen and (min-width: 600px) {
@@ -42,19 +61,4 @@
           "c c"
           "c c";
     }
-  }
-
-  h3 {
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-
-  p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    margin-left: 20px;
-    margin-top: 0px;
-    margin-right: 20px;
   }

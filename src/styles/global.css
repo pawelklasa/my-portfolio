@@ -16,7 +16,8 @@ html, body {
   grid-template-areas: "h" "s" "c" "f"; }
 
 .header {
-  grid-area: h; }
+  grid-area: h;
+  text-align: center; }
 
 .nav {
   grid-area: s; }
@@ -47,7 +48,9 @@ h2 {
     margin-right: 20px;
     grid-template-areas: "h s" "c c" "f f"; }
   h2 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .header {
+    text-align: left; } }
 
 @media screen and (min-width: 1225px) {
   .container {
@@ -57,4 +60,6 @@ h2 {
     grid-template-rows: 60px auto 30px;
     grid-template-areas: "h h h h h h h h h h s s" "c c c c c c c c c c c c" "f f f f f f f f f f f f"; }
   h2 {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .header {
+    text-align: left; } }
