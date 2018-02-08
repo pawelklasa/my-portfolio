@@ -38,7 +38,7 @@ export class Work extends React.Component {
                 <div class="btp">
                 <img src="https://picsum.photos/620/349?image=23" alt="blah"/>
                     <h3>British Transport Police</h3>
-                    <p>Some text description goes here</p>
+                    <p>Some text description goes here...</p>
                 </div>
             </div>
         )
