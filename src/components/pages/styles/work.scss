@@ -1,3 +1,5 @@
+$text: #394348;
+
 .content-two {
     height: 100%;
     display: grid;
@@ -27,6 +29,7 @@
 
   h3 {
     font-family: 'Quicksand', sans-serif;
+    color: $text;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -34,6 +37,7 @@
 
   p {
     font-family: 'Quicksand', sans-serif;
+    color: $text;
     font-size: 16px;
     margin-left: 20px;
     margin-top: 0px;

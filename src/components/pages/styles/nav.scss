@@ -1,13 +1,15 @@
+$white: #fff;
+
 .nav {
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   max-width: 810px;
-  color: #fff;
+  color: $white;
   text-align: center;
 }
 
 a {
-  color: #fff; 
+  color: $white; 
   text-decoration: none;
 }
 
