@@ -35,7 +35,13 @@ h2 {
   font-size: 20px;
   max-width: 810px;
   margin-top: 10%;
-  color: #fff; }
+  color: #fff;
+  margin-left: 20px; }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 16px; }
 
 @media screen and (min-width: 600px) {
   .container {
@@ -45,7 +51,8 @@ h2 {
     margin-right: 20px;
     grid-template-areas: "h s" "c c" "f f"; }
   h2 {
-    font-size: 25px; }
+    font-size: 25px;
+    margin-left: 0px; }
   .header {
     text-align: left; } }
 
@@ -57,6 +64,7 @@ h2 {
     grid-template-rows: 60px auto 30px;
     grid-template-areas: "h h h h h h h h h h s s" "c c c c c c c c c c c c" "f f f f f f f f f f f f"; }
   h2 {
-    font-size: 35px; }
+    font-size: 35px;
+    margin-left: 0px; }
   .header {
     text-align: left; } }

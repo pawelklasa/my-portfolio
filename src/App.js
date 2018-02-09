@@ -15,6 +15,7 @@ import { Nav } from './components/nav';
 import { Home } from './components/pages/home';
 import { Work } from './components/pages/work';
 import { Contact } from './components/pages/contact';
+import { Talktalk } from './components/pages/talktalk';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
                     <Route exact path='/' component={Home} />
                     <Route exact path='/work' component={Work} />
                     <Route exact path='/contact' component={Contact} />
+                    <Route exact path='/talktalk' component={Talktalk} />
                     <Footer />
                 </div>
             </div>

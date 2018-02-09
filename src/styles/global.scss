@@ -1,3 +1,5 @@
+$white: #fff;
+
 html, body {
   height: 100%;
 }
@@ -48,6 +50,13 @@ h2 {
   max-width: 810px;
   margin-top: 10%;
   color: #fff;
+  margin-left: 20px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: $white;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 600px) {
@@ -64,6 +73,7 @@ h2 {
 
   h2 {
       font-size: 25px;
+      margin-left: 0px;
   }
 
   .header {
@@ -85,6 +95,7 @@ h2 {
 
   h2 {
       font-size: 35px;
+      margin-left: 0px;
   }
 
   .header {
