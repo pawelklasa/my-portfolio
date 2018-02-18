@@ -15,7 +15,7 @@ export class Work extends React.Component {
                         <img src="https://www.tvbeurope.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_80%2Cw_620/MTUxNTczNzIzMDU1NDAwMjA0/homepage-2.jpg" alt="blah"/>
                     </Link>
                     <h3>TalkTalk</h3>
-                    <p class="description">Some text dessription goes here</p>
+                    <p class="description">Text dessription goes here</p>
                 </div>
                 <div class="sky">
                     <img src="http://media.gizmodo.co.uk/wp-content/uploads/2015/11/TV-Sky-Q-Silver-Sky-Q-Mini-Sky-Q-HubTablet-UI-and-Content-620x349.jpg" alt="blah"/>
