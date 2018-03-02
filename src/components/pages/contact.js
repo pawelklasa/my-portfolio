@@ -9,7 +9,7 @@ export class Contact extends React.Component {
         return (
             <div class="">
                 <div>
-                    Contact me
+                    Contact me now
                </div>
             </div>
         )
