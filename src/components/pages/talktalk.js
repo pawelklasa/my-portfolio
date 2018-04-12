@@ -11,7 +11,7 @@ export class Talktalk extends React.Component {
         return (
             <div class="content">
                 <h2 class="title">TalkTalk</h2>
-                <p class="about">Some text goes here...</p>
+                <p class="about">Some text/description goes here...</p>
             </div>
 
         )
