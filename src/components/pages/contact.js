@@ -9,7 +9,7 @@ export class Contact extends React.Component {
         return (
             <div class="">
                 <div>
-                    Contacts
+                    Contact
                </div>
             </div>
         )
