@@ -9,7 +9,6 @@ import {
 
 import './styles/global.css';
 
-
 import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Nav } from './components/nav';
